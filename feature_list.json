@@ -10,8 +10,38 @@
     {
       "id": "F002",
       "name": "App shell with routing",
-      "status": "pending",
-      "verification": "npm run dev starts without errors"
+      "status": "done",
+      "verification": "npm run dev starts without errors, React Router with protected routes"
+    },
+    {
+      "id": "F003",
+      "name": "User registration without email confirmation",
+      "status": "done",
+      "verification": "RegisterForm + LoginForm tested, Supabase auth integration"
+    },
+    {
+      "id": "F004",
+      "name": "Chat rooms with persistent messages",
+      "status": "done",
+      "verification": "ChatRoom, MessageList, MessageInput components with Supabase realtime"
+    },
+    {
+      "id": "F005",
+      "name": "Direct message chats",
+      "status": "done",
+      "verification": "ConversationList + DirectMessageView with realtime updates"
+    },
+    {
+      "id": "F006",
+      "name": "AI article discussion",
+      "status": "done",
+      "verification": "HackerNews API with AI keyword filtering, ArticleCard + ArticleDiscussion"
+    },
+    {
+      "id": "F007",
+      "name": "Polling feature",
+      "status": "done",
+      "verification": "Poll creation, voting, realtime vote counts in chat rooms"
     },
     {
       "id": "FDEPLOY",
